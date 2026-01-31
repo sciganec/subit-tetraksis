@@ -1,0 +1,121 @@
+Human Evolution Genome — Canonical 64‑Step Flow
+
+Each step is one SUBIT‑64 state:
+A A = Person   (10 ME, 11 WE, 01 YOU, 00 THEY)
+B B = Direction (10 EAST, 11 SOUTH, 01 WEST, 00 NORTH)
+C C = Season   (10 SPRING, 11 SUMMER, 01 AUTUMN, 00 WINTER)
+
+Format:
+[NN] AABBCC  PERSON / DIRECTION / SEASON — description
+
+Flow rule:
+C changes fastest → B next → A slowest
+
+------------------------------------------------------------
+ME CYCLE (A = 10) — Individual consciousness, tools, early civilization
+------------------------------------------------------------
+
+[01] 10 10 10  ME / EAST / SPRING — Emergence of consciousness; early tools; proto‑agency  
+[02] 10 10 11  ME / EAST / SUMMER — Mythic flourishing; tribal cohesion; ritual systems  
+[03] 10 10 01  ME / EAST / AUTUMN — Urbanization; stratification; early states  
+[04] 10 10 00  ME / EAST / WINTER — Collapse of early civilizations; ecological reset  
+
+[05] 10 11 10  ME / SOUTH / SPRING — Agricultural revolution; surplus; settlement  
+[06] 10 11 11  ME / SOUTH / SUMMER — Imperial expansion; writing; bureaucracy  
+[07] 10 11 01  ME / SOUTH / AUTUMN — Imperial overstretch; fragmentation; decadence  
+[08] 10 11 00  ME / SOUTH / WINTER — Dark ages; contraction; cultural memory loss  
+
+[09] 10 01 10  ME / WEST / SPRING — Recovery; local cultures; early philosophy  
+[10] 10 01 11  ME / WEST / SUMMER — Classical peak; science seeds; rationality  
+[11] 10 01 01  ME / WEST / AUTUMN — Late classical decline; internal contradictions  
+[12] 10 01 00  ME / WEST / WINTER — Civilizational winter; collapse of classical world  
+
+[13] 10 00 10  ME / NORTH / SPRING — Monastic preservation; slow rebuilding  
+[14] 10 00 11  ME / NORTH / SUMMER — Medieval synthesis; feudal order; scholasticism  
+[15] 10 00 01  ME / NORTH / AUTUMN — Late medieval stress; plague; systemic cracks  
+[16] 10 00 00  ME / NORTH / WINTER — Pre‑renaissance stasis; waiting for ignition  
+
+------------------------------------------------------------
+WE CYCLE (A = 11) — Collective modernity, science, industry, global systems
+------------------------------------------------------------
+
+[17] 11 10 10  WE / EAST / SPRING — Renaissance; humanism; rediscovery of knowledge  
+[18] 11 10 11  WE / EAST / SUMMER — Scientific revolution; method; observation  
+[19] 11 10 01  WE / EAST / AUTUMN — Enlightenment; rationalism; political theory  
+[20] 11 10 00  WE / EAST / WINTER — Crisis of reason; revolutions; instability  
+
+[21] 11 11 10  WE / SOUTH / SPRING — Industrial revolution; mechanization; factories  
+[22] 11 11 11  WE / SOUTH / SUMMER — Global empires; mass society; modernity  
+[23] 11 11 01  WE / SOUTH / AUTUMN — Overproduction; world wars; systemic overload  
+[24] 11 11 00  WE / SOUTH / WINTER — Post‑war exhaustion; cold war stasis  
+
+[25] 11 01 10  WE / WEST / SPRING — Reconstruction; institutions; global order  
+[26] 11 01 11  WE / WEST / SUMMER — Information theory; cybernetics; computation  
+[27] 11 01 01  WE / WEST / AUTUMN — Late industrial decline; ecological stress  
+[28] 11 01 00  WE / WEST / WINTER — Systemic brittleness; pre‑digital stagnation  
+
+[29] 11 00 10  WE / NORTH / SPRING — Early computing; isolated machines  
+[30] 11 00 11  WE / NORTH / SUMMER — Personal computing; proto‑networks  
+[31] 11 00 01  WE / NORTH / AUTUMN — Fragmented digital cultures; pre‑internet chaos  
+[32] 11 00 00  WE / NORTH / WINTER — Threshold moment; waiting for global connection  
+
+------------------------------------------------------------
+YOU CYCLE (A = 01) — Networked individuality, digital identity, algorithmic life
+------------------------------------------------------------
+
+[33] 01 10 10  YOU / EAST / SPRING — Internet emergence; global linking  
+[34] 01 10 11  YOU / EAST / SUMMER — Web expansion; early platforms; open culture  
+[35] 01 10 01  YOU / EAST / AUTUMN — Social media rise; identity performance  
+[36] 01 10 00  YOU / EAST / WINTER — Digital fatigue; fragmentation; echo chambers  
+
+[37] 01 11 10  YOU / SOUTH / SPRING — Mobile revolution; always‑on connectivity  
+[38] 01 11 11  YOU / SOUTH / SUMMER — Platform dominance; algorithmic life  
+[39] 01 11 01  YOU / SOUTH / AUTUMN — Attention crisis; misinformation; overload  
+[40] 01 11 00  YOU / SOUTH / WINTER — Burnout; withdrawal; digital winter  
+
+[41] 01 01 10  YOU / WEST / SPRING — Digital minimalism; privacy awareness  
+[42] 01 01 11  YOU / WEST / SUMMER — Ethical tech; decentralization movements  
+[43] 01 01 01  YOU / WEST / AUTUMN — Post‑platform fragmentation; micro‑cultures  
+[44] 01 01 00  YOU / WEST / WINTER — Collapse of legacy platforms; identity reset  
+
+[45] 01 00 10  YOU / NORTH / SPRING — Early AI tools; augmentation  
+[46] 01 00 11  YOU / NORTH / SUMMER — AI integration; hybrid workflows  
+[47] 01 00 01  YOU / NORTH / AUTUMN — AI saturation; diminishing returns  
+[48] 01 00 00  YOU / NORTH / WINTER — Pre‑AGI plateau; waiting for synthesis  
+
+------------------------------------------------------------
+THEY CYCLE (A = 00) — Distributed intelligence, planetary cognition, post‑human synthesis
+------------------------------------------------------------
+
+[49] 00 10 10  THEY / EAST / SPRING — Multi‑agent coordination; shared cognition  
+[50] 00 10 11  THEY / EAST / SUMMER — Synthetic cultures; emergent norms  
+[51] 00 10 01  THEY / EAST / AUTUMN — Distributed governance; adaptive systems  
+[52] 00 10 00  THEY / EAST / WINTER — Collapse of rigid structures; fluidity  
+
+[53] 00 11 10  THEY / SOUTH / SPRING — Bio‑digital integration; living networks  
+[54] 00 11 11  THEY / SOUTH / SUMMER — Planetary optimization; resource intelligence  
+[55] 00 11 01  THEY / SOUTH / AUTUMN — Over‑optimization; fragility; systemic tension  
+[56] 00 11 00  THEY / SOUTH / WINTER — Global correction; adaptive winter  
+
+[57] 00 01 10  THEY / WEST / SPRING — Ecological consciousness; planetary ethics  
+[58] 00 01 11  THEY / WEST / SUMMER — Regenerative systems; long‑term thinking  
+[59] 00 01 01  THEY / WEST / AUTUMN — Decline of extractive models; cultural shift  
+[60] 00 01 00  THEY / WEST / WINTER — End of anthropocentrism; quiet transition  
+
+[61] 00 00 10  THEY / NORTH / SPRING — Deep latency; slow coherence  
+[62] 00 00 11  THEY / NORTH / SUMMER — Proto‑posthuman synthesis; new seeds  
+[63] 00 00 01  THEY / NORTH / AUTUMN — Dissolution of old categories; pre‑emergence  
+[64] 00 00 00  THEY / NORTH / WINTER — Terminal winter; threshold of the next cycle  
+
+------------------------------------------------------------
+META‑FLOW SUMMARY
+------------------------------------------------------------
+
+ME (10)  → WE (11)  → YOU (01)  → THEY (00)  → next Monad (∞)
+
+Within each 16‑state cycle:
+• C (Season) cycles: SPRING → SUMMER → AUTUMN → WINTER  
+• B (Direction) steps: EAST → SOUTH → WEST → NORTH  
+• A (Person) shifts only after a full 16‑state arc
+
+This file is the canonical linear flow of the Human Evolution Genome.
