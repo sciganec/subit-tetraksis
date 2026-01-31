@@ -1,0 +1,61 @@
+SUBIT‑64 GRID (ASCII, canonical 8×8 layout)
+
+This file presents the SUBIT‑64 grid as a clean, lexicographically ordered
+8×8 matrix of all 64 six‑bit SUBIT codes.
+
+Ordering rule:
+A (Person) changes slowest
+B (Direction) changes next
+C (Season) changes fastest
+
+Bit order: A A  B B  C C
+
+------------------------------------
+ROW / COLUMN LEGEND
+------------------------------------
+Rows   = A A B B (Person + Direction)
+Columns = C C (Season)
+
+Season order:
+10 SPRING
+11 SUMMER
+01 AUTUMN
+00 WINTER
+
+------------------------------------
+SUBIT‑64 GRID (8×8)
+------------------------------------
+
+              SPR       SUM       AUT       WIN
+              10        11        01        00
+         ------------------------------------------
+ME/EAST    10 10 10  10 10 11  10 10 01  10 10 00
+ME/SOUTH   10 11 10  10 11 11  10 11 01  10 11 00
+ME/WEST    10 01 10  10 01 11  10 01 01  10 01 00
+ME/NORTH   10 00 10  10 00 11  10 00 01  10 00 00
+
+WE/EAST    11 10 10  11 10 11  11 10 01  11 10 00
+WE/SOUTH   11 11 10  11 11 11  11 11 01  11 11 00
+WE/WEST    11 01 10  11 01 11  11 01 01  11 01 00
+WE/NORTH   11 00 10  11 00 11  11 00 01  11 00 00
+
+YOU/EAST   01 10 10  01 10 11  01 10 01  01 10 00
+YOU/SOUTH  01 11 10  01 11 11  01 11 01  01 11 00
+YOU/WEST   01 01 10  01 01 11  01 01 01  01 01 00
+YOU/NORTH  01 00 10  01 00 11  01 00 01  01 00 00
+
+THEY/EAST  00 10 10  00 10 11  00 10 01  00 10 00
+THEY/SOUTH 00 11 10  00 11 11  00 11 01  00 11 00
+THEY/WEST  00 01 10  00 01 11  00 01 01  00 01 00
+THEY/NORTH 00 00 10  00 00 11  00 00 01  00 00 00
+
+------------------------------------
+NOTES
+------------------------------------
+• Grid is lexicographically ordered by A → B → C  
+• Each row = fixed Person + Direction  
+• Each column = fixed Season  
+• This is the canonical SUBIT‑64 matrix for all downstream models
+
+------------------------------------
+END OF FILE
